@@ -7,7 +7,7 @@ function App() {
   return (
     <main className='min-h-screen grid place-content-center font-["Overpass"] bg-[hsl(216,12%,8%)] px-6'>
       {!changeModal?(
-      <section className='lg:w-[420px] bg-[hsl(213,19%,18%)] grid gap-3 rounded-3xl px-6 lg:px-8 lg:py-8 py-6'>
+      <section className='md:w-[420px] bg-[hsl(213,19%,18%)] grid gap-3 rounded-3xl px-6 lg:px-8 lg:py-8 py-6'>
         <div className='rounded-full bg-[hsla(217,12%,63%,0.1)] w-fit px-3 py-3 lg:px-4 lg:py-4 inline-block'>
           <img src="/icon-star.svg" alt="" />
         </div>
@@ -23,7 +23,7 @@ function App() {
         <button onClick={()=>setChangeModal(true)} className='bg-[hsl(25,97%,53%)] text-[hsl(0,0%,100%)] hover:text-[hsl(25,97%,53%)] hover:bg-white transition-all py-3.5 rounded-full font-bold text-sm mb-1' style={number==null?({cursor: "default", pointerEvents: "none", opacity: "0.74"}):({listStyle: "none"})}>SUBMIT</button>
       </section>
       ):(
-      <section className='lg:w-[420px] bg-[hsl(213,19%,18%)] rounded-3xl px-7 lg:px-8 lg:py-8 py-6 grid gap-5 justify-center'>
+      <section className='md:w-[420px] bg-[hsl(213,19%,18%)] rounded-3xl px-7 lg:px-8 lg:py-8 py-6 grid gap-5 justify-center'>
         <picture className='mt-3 mb-1'>
           <img className='block mx-auto' src="/public/illustration-thank-you.svg" alt="" />
         </picture>
