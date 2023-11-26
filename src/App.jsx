@@ -25,7 +25,7 @@ function App() {
       ):(
       <section className='md:w-[420px] bg-[hsl(213,19%,18%)] rounded-3xl px-7 lg:px-8 lg:py-8 py-6 grid gap-5 justify-center'>
         <picture className='mt-3 mb-1'>
-          <img className='block mx-auto' src="/public/illustration-thank-you.svg" alt="" />
+          <img className='block mx-auto' src="/illustration-thank-you.svg" alt="" />
         </picture>
         <h3 className='w-fit block mx-auto px-3 py-2 rounded-full text-[hsla(25,97%,53%,0.8)] bg-[hsla(216,12%,8%,0.2)] text-center'>{`You selected ${number} out of 5`}</h3>
         <h2 className='text-[hsl(0,0%,100%)] text-3xl mx-auto font-semibold mt-0.5 lg:mt-1.5'>Thank you!</h2>
